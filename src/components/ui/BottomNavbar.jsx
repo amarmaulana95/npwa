@@ -2,10 +2,10 @@ import { Home, Search, Bell, User } from "lucide-react";
 
 export default function BottomNavbar() {
   const navItems = [
-    { name: "Home", icon: <Home size={24} />, color: "text-emerald-600" },
-    { name: "Search", icon: <Search size={24} />, color: "text-emerald-600" },
-    { name: "Notifications", icon: <Bell size={24} />, color: "text-emerald-600" },
-    { name: "Profile", icon: <User size={24} />, color: "text-emerald-600" },
+    { name: "Home", icon: <Home size={24} />, color: "text-black-600" },
+    { name: "Search", icon: <Search size={24} />, color: "text-black-600" },
+    { name: "Notifications", icon: <Bell size={24} />, color: "text-black-600" },
+    { name: "Profile", icon: <User size={24} />, color: "text-black-600" },
   ];
 
   return (

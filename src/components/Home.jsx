@@ -19,7 +19,7 @@ const Home = () => {
       <Header />
       <SearchBar />
       <JoinTravelersCard />
-      <BrowseByType />
+      {/* <BrowseByType /> */}
       <FeaturedThisWeek />
       <BottomNavbar items={navItems} />
     </div>

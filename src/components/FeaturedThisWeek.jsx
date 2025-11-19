@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card } from './ui/Card';
 import { Button } from './ui/Button';
-import { Star } from 'lucide-react';
+import { Star, ChevronRight } from 'lucide-react';
 
 const FeaturedThisWeek = () => {
   const featuredItem = {
@@ -16,13 +16,10 @@ const FeaturedThisWeek = () => {
   return (
     <div className="px-4 py-4">
       <div className="flex justify-between items-center mb-4">
-        <h2 className="font-bold text-lg">Featured this week</h2>
-        <button className="text-gray-400">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
-            <polyline points="17 21 17 13 7 13 7 21"></polyline>
-            <polyline points="7 3 7 8 15 8"></polyline>
-          </svg>
+        <h2 className="font-bold text-lg">Tender di Ikuti </h2>
+        <button className="text-[13px] text-slate-600 hover:text-slate-900 font-medium flex items-center gap-1 transition-colors">
+          View all
+          <ChevronRight className="w-4 h-4" />
         </button>
       </div>
       <Card className="overflow-hidden rounded-2xl">
