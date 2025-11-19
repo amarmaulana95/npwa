@@ -22,7 +22,7 @@ const FeaturedThisWeek = () => {
           <ChevronRight className="w-4 h-4" />
         </button>
       </div>
-      <Card className="overflow-hidden rounded-2xl">
+      {/* <Card className="overflow-hidden rounded-2xl">
         <div className="relative">
           <img src={featuredItem.image} alt={featuredItem.title} className="w-full h-48 object-cover" />
           <div className="absolute top-3 right-3 bg-white rounded-full px-2 py-1 text-xs flex items-center gap-1 shadow">
@@ -43,7 +43,7 @@ const FeaturedThisWeek = () => {
           <span className="font-bold">{featuredItem.price}</span>
           <Button size="sm">Book Now</Button>
         </div>
-      </Card>
+      </Card> */}
     </div>
   );
 };
